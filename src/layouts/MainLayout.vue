@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Quasar App </q-toolbar-title>
+        <q-toolbar-title> Quasar App GitHub CI/CD</q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -19,7 +19,7 @@
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item-label header> Welcome </q-item-label>
+        <q-item-label header> Main Menu </q-item-label>
 
         <EssentialLink
           v-for="link in essentialLinks"
